@@ -44,7 +44,7 @@ Over the past year I moved from **front-end to full-stack**. I now build with **
   <img src="https://skillicons.dev/icons?i=html" width="44" title="HTML5" alt="HTML5" />
   <img src="https://skillicons.dev/icons?i=css" width="44" title="CSS3" alt="CSS3" />
   <img src="https://skillicons.dev/icons?i=jquery" width="44" title="jQuery" alt="jQuery" />
-  <img src="./assets/framer.svg" width="44" title="Framer Motion" alt="Framer Motion" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=framer" width="44" title="Framer Motion" alt="Framer Motion" />
 </p>
 
 **Back-End & Cloud**
@@ -57,17 +57,17 @@ Over the past year I moved from **front-end to full-stack**. I now build with **
   <img src="https://skillicons.dev/icons?i=firebase" width="44" title="Firebase" alt="Firebase" />
   <img src="https://skillicons.dev/icons?i=aws" width="44" title="AWS" alt="AWS" />
   <img src="https://skillicons.dev/icons?i=vercel" width="44" title="Vercel" alt="Vercel" />
-  <img src="./assets/shopify.svg" width="44" title="Shopify" alt="Shopify" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=shopify" width="44" title="Shopify" alt="Shopify" />
 </p>
 
 **AI & Workflow**
 
 <p>
-  <img src="./assets/claude.svg" width="44" title="Claude Code · multi-agent pipelines" alt="Claude Code" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=claudecode" width="44" title="Claude Code · multi-agent pipelines" alt="Claude Code" />
   <img src="https://skillicons.dev/icons?i=git" width="44" title="Git" alt="Git" />
   <img src="https://skillicons.dev/icons?i=github" width="44" title="GitHub" alt="GitHub" />
   <img src="https://skillicons.dev/icons?i=figma" width="44" title="Figma" alt="Figma" />
-  <img src="./assets/jira.svg" width="44" title="Jira" alt="Jira" />
+  <img src="https://go-skill-icons.vercel.app/api/icons?i=jira" width="44" title="Jira" alt="Jira" />
 </p>
 
 ---
