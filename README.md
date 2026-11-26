@@ -1,41 +1,123 @@
-<h1 align="center">Hi 👋, I'm Ata</h1>
-<h3 align="center">Front-End Developer with 5+ years experience</h3>
+<div align="center">
 
-- 🌱 I’m currently learning **React Native, Node.js, Express.js**
+# Hi, I'm Ata 👋
 
-- 💬 Ask me about **React, JavaScript**
+<a href="https://linkedin.com/in/ata-bayraktar">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=D97757&center=true&vCenter=true&width=620&lines=Full-Stack+Developer;5%2B+years+shipping+front+ends+for+big+brands;Building+with+Claude+Code+%26+multi-agent+pipelines;Idea+%E2%86%92+deployment%2C+end+to+end" alt="Typing intro" />
+</a>
 
-- 📫 How to reach me **atabayraktar17@gmail.com**
-
-- ⚡ Fun fact **Bleach anime's name comes from Nirvana's Bleach album**
-
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/ata-bayraktar" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="ata-bayraktar" height="30" width="40" /></a>
-<a href="https://discord.gg/#6102" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/discord.svg" alt="#6102" height="30" width="40" /></a>
+<p>
+  <a href="https://linkedin.com/in/ata-bayraktar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:atabayraktar17@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <img src="https://img.shields.io/badge/Based_in-Çanakkale,_TR-1f2937?style=for-the-badge" alt="Location" />
 </p>
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
-<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> 
-<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
-<a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> 
-<a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> 
-<a href="https://sass-lang.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="sass" width="40" height="40"/> </a> 
-<a href="https://redux.js.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redux/redux-original.svg" alt="redux" width="40" height="40"/> </a>
-<a href="https://getbootstrap.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/> </a>
-<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
-<a href="https://www.figma.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="figma" width="40" height="40"/> </a> 
-<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
-<a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a> 
+</div>
+
+---
+
+### 🧭 About me
+
+I'm a **Computer Engineer** (Yaşar University) with **5+ years** of professional experience. I've led front-end teams, set up project architectures and shipped products for **Pınar, Unilever, Beymen and KızlarSoruyor**, mostly with React, Next.js and TypeScript.
+
+Over the past year I moved from **front-end to full-stack**. I now build with **Claude Code**, and not just as an assistant: I write my own **multi-agent pipelines**, custom skills and commands, and use them every day to take projects from idea to deployment. Front end, back end, hosting and all, with the quality bar I learned on large teams.
+
+- 🛠️ &nbsp;Currently: delivering complete websites for clients, solo, end to end
+- 🤖 &nbsp;Obsessed with: agent loops, custom skills, making AI output actually production-grade
+- 🔐 &nbsp;Certified: ISO/IEC 27001 & 27701 (2026)
+- 💬 &nbsp;Ask me about: React, Next.js, TypeScript, Claude Code workflows
+- ⚡ &nbsp;Fun fact: *Bleach* the anime got its name from Nirvana's *Bleach* album
+
+---
+
+### 🤖 How I ship now
+
+My own pipeline, running on Claude Code. Each role is a separate agent; they loop until the critic is happy.
+
+```mermaid
+flowchart LR
+    A([💡 Idea / brief]) --> P[🧑‍💼 Product agent]
+    P --> PL[🗺️ Planner agent]
+    PL --> D[👨‍💻 Developer agent]
+    D --> Q[🧪 QA<br/>lint · types · build · screenshots]
+    Q --> C{🧐 Critic agent}
+    C -- fix list --> D
+    C -- pass --> S([🚀 Deploy])
+```
+
+---
+
+### 🧰 Tech stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,redux,tailwind,sass,html,css&perline=11" alt="Front-end and back-end stack" />
+  <br/>
+  <img src="https://skillicons.dev/icons?i=firebase,aws,cs,dotnet,jquery,git,github,figma,vercel&perline=9" alt="Tools and platforms" />
 </p>
 
-<h3 align="left">Projects you might want to look:</h3>
-<p align="left">
-- <a href="https://www.pinaronline.com" target="blank">PınarOnline</a><br>
-- <a href="https://lightnift.com" target="blank">Lightnift</a><br>
-- <a href="https://www.unishopturkiye.com">Unishop</a><br>
-- <a href="https://www.rightsoft.co.uk" target="blank">Rightsoft</a><br>
-- Beymen Admin Panels<br>
+<p align="center">
+  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
+  <img src="https://img.shields.io/badge/AI_Agents_&_Pipelines-111827?style=flat-square&logo=anthropic&logoColor=white" alt="AI Agents" />
+  <img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" />
+  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
+  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white" alt="Redux Toolkit" />
+  <img src="https://img.shields.io/badge/Razor_/_ASP.NET_MVC-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Razor" />
+  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira" />
+  <img src="https://img.shields.io/badge/Zeplin-FDBD39?style=flat-square&logo=zeplin&logoColor=black" alt="Zeplin" />
 </p>
+
+---
+
+### 💼 Experience
+
+| Role | Company | When |
+|---|---|---|
+| **Full-Stack Developer** · freelance, AI-driven | Independent | 2025 → now |
+| **Front-End Developer** | KızlarSoruyor | 2024 – 2026 |
+| **Lead Front-End Developer** · led 2–3 devs | Appcent | 2021 – 2023 |
+| **Full-Stack Intern** | Codespace | 2019 |
+
+---
+
+### 🏢 Selected work: brands & products
+
+| Project | What I did | Stack |
+|---|---|---|
+| **[KızlarSoruyor](https://www.kizlarsoruyor.com)** | New features, rebuilt outdated sections, front end of the platform's first AI features | ASP.NET MVC · JS · Sass |
+| **[KızlarSoruyor Ads](https://reklam.kizlarsoruyor.com)** | Interactive ad models for Koton, Amazon, Samsung, Pandora, Lenovo, Philips, Arçelik +7 more, plus the showcase site | TS · Next.js · Redux |
+| **[PınarOnline](https://www.pinaronline.com)** | Led the front end for 1+ year, first page to launch, owned deployments | Next.js · Redux · AWS |
+| **[Unishop](https://www.unishopturkiye.com)** | Unilever's store: home, profile and support pages | TS · Next.js · Redux |
+| **Beymen Admin Panels** | Set up the architecture and led merchant + admin panels for 8 months | TS · React · RTK |
+| **[Lightnift](https://lightnift.com)** | NFT analytics SPA with live collection data | Next.js · RTK · Sass |
+
+### 🌐 Freelance: built end to end
+
+| Project | | |
+|---|---|---|
+| **[Rightsoft](https://www.rightsoft.co.uk)** 🇬🇧 | Software company site, locomotive scroll & heavy motion | Next.js · Framer Motion |
+| **[Sienna Art Studio](https://siennaartstudio.shop)** 🇺🇸 | Shopify theme redesign + admin panel for bulk uploads | Shopify |
+| **[Vision Detail](https://visiondetail.com.tr)** | Product catalogue with a custom glass-style UI | — |
+| **[NİP Mimarlık](https://nipmimarlik.com)** | Architecture studio site + brand guidelines | — |
+| **[K2 Hukuk](https://k2hukuk.com)** | Law firm site, domain & company e-mail setup | — |
+| **[Postacılar Yapı](https://postacilaryapi.com)** | Construction company, residential projects showcase | — |
+| **[Ekin Nohutçu](https://ekinnohutcu.com)** | Portfolio for a game developer & PM | — |
+| 🚧 **[Soft Tension Lab](https://soft-tension-lab-website.web.app)** | Editorial, animated studio site (in progress) | Next.js · SCSS |
+| 🚧 **[Dentilion](https://dentilion-web-site.web.app)** | Dental clinic site with appointment requests (in progress) | — |
+
+---
+
+<div align="center">
+
+**Open to freelance projects and full-time roles.**
+If you need a site built from idea to deployment, [let's talk](mailto:atabayraktar17@gmail.com).
+
+</div>
+
+<!--
+  Optional: GitHub stats. Replace YOUR_USERNAME and paste above the closing section.
+
+  <p align="center">
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true&theme=transparent" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true&theme=transparent" />
+  </p>
+-->
