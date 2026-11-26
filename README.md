@@ -29,65 +29,6 @@ Over the past year I moved from **front-end to full-stack**. I now build with **
 
 ---
 
-### 🤖 How I ship now
-
-My own multi-agent pipeline, built on Claude Code. Every role is a separate agent with its own instructions and tools. The build loop doesn't stop until the critic passes the work.
-
-```mermaid
-flowchart TB
-    subgraph S1["① Intake"]
-        U(["💡 Brief or client feedback"])
-        PO["🧑‍💼 Product Owner<br/>asks the right questions, routes the job"]
-    end
-
-    subgraph S2["② Context"]
-        RA["🔎 Repo Analyst<br/>project map + design baseline"]
-        DD["🎨 Design Director<br/>fresh palette, type, layout motifs"]
-    end
-
-    subgraph S3["③ Plan"]
-        PL["🗺️ Planner<br/>spec + atomic task list"]
-    end
-
-    subgraph S4["④ Build loop"]
-        DEV["👨‍💻 Developer<br/>Next.js · Shopify"]
-        QA["🧪 QA Runner<br/>lint · typecheck · build · design-lint · screenshots"]
-        CR{"🧐 Design Critic<br/>PASS / FAIL"}
-    end
-
-    subgraph S5["⑤ Ship"]
-        DEP(["🚀 Deploy + handoff"])
-    end
-
-    TASTE[("📚 Taste profile<br/>+ custom skills")]
-    UN["🆘 Unstuck<br/>strongest model, one focused shot"]
-
-    U --> PO
-    PO -- "existing project" --> RA
-    PO -- "new site" --> DD
-    RA --> PL
-    DD --> PL
-    PL --> DEV
-    DEV --> QA
-    QA --> CR
-    CR -- "fix list" --> DEV
-    CR -- "PASS" --> DEP
-    CR -. "stuck after repeated rounds" .-> UN
-    UN -.-> DEV
-    TASTE -.-> DD
-    TASTE -.-> DEV
-    TASTE -.-> CR
-
-    classDef agent fill:#1f2937,stroke:#D97757,stroke-width:2px,color:#f9fafb
-    classDef io fill:#D97757,stroke:#D97757,color:#ffffff
-    classDef side fill:#111827,stroke:#6b7280,stroke-dasharray:4 3,color:#e5e7eb
-    class PO,RA,DD,PL,DEV,QA,CR agent
-    class U,DEP io
-    class TASTE,UN side
-```
-
----
-
 ### 🧰 Tech stack
 
 **Front-End**
@@ -166,6 +107,65 @@ flowchart TB
 | **[Ekin Nohutçu](https://ekinnohutcu.com)** | Portfolio for a game developer & PM | Next.js |
 | 🚧 **[Soft Tension Lab](https://soft-tension-lab-website.web.app)** | Editorial, animated studio site (in progress) | Next.js · SCSS |
 | 🚧 **[Dentilion](https://dentilion-web-site.web.app)** | Dental clinic site with appointment requests (in progress) | Next.js |
+
+---
+
+### 🤖 How I ship now
+
+My own multi-agent pipeline, built on Claude Code. Every role is a separate agent with its own instructions and tools. The build loop doesn't stop until the critic passes the work.
+
+```mermaid
+flowchart LR
+    subgraph S1["① Intake"]
+        U(["💡 Brief or client feedback"])
+        PO["🧑‍💼 Product Owner<br/>asks the right questions, routes the job"]
+    end
+
+    subgraph S2["② Context"]
+        RA["🔎 Repo Analyst<br/>project map + design baseline"]
+        DD["🎨 Design Director<br/>fresh palette, type, layout motifs"]
+    end
+
+    subgraph S3["③ Plan"]
+        PL["🗺️ Planner<br/>spec + atomic task list"]
+    end
+
+    subgraph S4["④ Build loop"]
+        DEV["👨‍💻 Developer<br/>Next.js · Shopify"]
+        QA["🧪 QA Runner<br/>lint · typecheck · build · design-lint · screenshots"]
+        CR{"🧐 Design Critic<br/>PASS / FAIL"}
+    end
+
+    subgraph S5["⑤ Ship"]
+        DEP(["🚀 Deploy + handoff"])
+    end
+
+    TASTE[("📚 Taste profile<br/>+ custom skills")]
+    UN["🆘 Unstuck<br/>strongest model, one focused shot"]
+
+    U --> PO
+    PO -- "existing project" --> RA
+    PO -- "new site" --> DD
+    RA --> PL
+    DD --> PL
+    PL --> DEV
+    DEV --> QA
+    QA --> CR
+    CR -- "fix list" --> DEV
+    CR -- "PASS" --> DEP
+    CR -. "stuck after repeated rounds" .-> UN
+    UN -.-> DEV
+    TASTE -.-> DD
+    TASTE -.-> DEV
+    TASTE -.-> CR
+
+    classDef agent fill:#1f2937,stroke:#D97757,stroke-width:2px,color:#f9fafb
+    classDef io fill:#D97757,stroke:#D97757,color:#ffffff
+    classDef side fill:#111827,stroke:#6b7280,stroke-dasharray:4 3,color:#e5e7eb
+    class PO,RA,DD,PL,DEV,QA,CR agent
+    class U,DEP io
+    class TASTE,UN side
+```
 
 ---
 
