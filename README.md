@@ -2,15 +2,14 @@
 
 # Hi, I'm Ata 👋
 
-<a href="https://linkedin.com/in/ata-bayraktar">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=D97757&center=true&vCenter=true&width=620&lines=Full-Stack+Developer;5%2B+years+shipping+front+ends+for+big+brands;Building+with+Claude+Code+%26+multi-agent+pipelines;Idea+%E2%86%92+deployment%2C+end+to+end" alt="Typing intro" />
-</a>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3200&pause=900&color=D97757&center=true&vCenter=true&width=800&lines=Full-Stack+Developer;5%2B+years+of+front+ends+for+big+brands;Building+with+Claude+Code+%26+AI+agents;From+idea+to+deployment%2C+end+to+end" alt="Typing intro" />
 
-<p>
-  <a href="https://linkedin.com/in/ata-bayraktar"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:atabayraktar17@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <img src="https://img.shields.io/badge/Based_in-Çanakkale,_TR-1f2937?style=for-the-badge" alt="Location" />
-</p>
+<br/>
+
+<a href="https://linkedin.com/in/ata-bayraktar" title="LinkedIn"><img src="https://skillicons.dev/icons?i=linkedin" width="44" alt="LinkedIn" /></a>&nbsp;
+<a href="mailto:atabayraktar17@gmail.com" title="Email"><img src="https://skillicons.dev/icons?i=gmail" width="44" alt="Email" /></a>
+
+<sub>📍 Çanakkale, Türkiye</sub>
 
 </div>
 
@@ -23,7 +22,7 @@ I'm a **Computer Engineer** (Yaşar University) with **5+ years** of professiona
 Over the past year I moved from **front-end to full-stack**. I now build with **Claude Code**, and not just as an assistant: I write my own **multi-agent pipelines**, custom skills and commands, and use them every day to take projects from idea to deployment. Front end, back end, hosting and all, with the quality bar I learned on large teams.
 
 - 🛠️ &nbsp;Currently: delivering complete websites for clients, solo, end to end
-- 🤖 &nbsp;Obsessed with: agent loops, custom skills, making AI output actually production-grade
+- 🤖 &nbsp;Focused on: agent loops, custom skills and getting production-grade output from AI
 - 🔐 &nbsp;Certified: ISO/IEC 27001 & 27701 (2026)
 - 💬 &nbsp;Ask me about: React, Next.js, TypeScript, Claude Code workflows
 - ⚡ &nbsp;Fun fact: *Bleach* the anime got its name from Nirvana's *Bleach* album
@@ -32,38 +31,102 @@ Over the past year I moved from **front-end to full-stack**. I now build with **
 
 ### 🤖 How I ship now
 
-My own pipeline, running on Claude Code. Each role is a separate agent; they loop until the critic is happy.
+My own multi-agent pipeline, built on Claude Code. Every role is a separate agent with its own instructions and tools. The build loop doesn't stop until the critic passes the work.
 
 ```mermaid
-flowchart LR
-    A([💡 Idea / brief]) --> P[🧑‍💼 Product agent]
-    P --> PL[🗺️ Planner agent]
-    PL --> D[👨‍💻 Developer agent]
-    D --> Q[🧪 QA<br/>lint · types · build · screenshots]
-    Q --> C{🧐 Critic agent}
-    C -- fix list --> D
-    C -- pass --> S([🚀 Deploy])
+flowchart TB
+    subgraph S1["① Intake"]
+        U(["💡 Brief or client feedback"])
+        PO["🧑‍💼 Product Owner<br/>asks the right questions, routes the job"]
+    end
+
+    subgraph S2["② Context"]
+        RA["🔎 Repo Analyst<br/>project map + design baseline"]
+        DD["🎨 Design Director<br/>fresh palette, type, layout motifs"]
+    end
+
+    subgraph S3["③ Plan"]
+        PL["🗺️ Planner<br/>spec + atomic task list"]
+    end
+
+    subgraph S4["④ Build loop"]
+        DEV["👨‍💻 Developer<br/>Next.js · Shopify"]
+        QA["🧪 QA Runner<br/>lint · typecheck · build · design-lint · screenshots"]
+        CR{"🧐 Design Critic<br/>PASS / FAIL"}
+    end
+
+    subgraph S5["⑤ Ship"]
+        DEP(["🚀 Deploy + handoff"])
+    end
+
+    TASTE[("📚 Taste profile<br/>+ custom skills")]
+    UN["🆘 Unstuck<br/>strongest model, one focused shot"]
+
+    U --> PO
+    PO -- "existing project" --> RA
+    PO -- "new site" --> DD
+    RA --> PL
+    DD --> PL
+    PL --> DEV
+    DEV --> QA
+    QA --> CR
+    CR -- "fix list" --> DEV
+    CR -- "PASS" --> DEP
+    CR -. "stuck after repeated rounds" .-> UN
+    UN -.-> DEV
+    TASTE -.-> DD
+    TASTE -.-> DEV
+    TASTE -.-> CR
+
+    classDef agent fill:#1f2937,stroke:#D97757,stroke-width:2px,color:#f9fafb
+    classDef io fill:#D97757,stroke:#D97757,color:#ffffff
+    classDef side fill:#111827,stroke:#6b7280,stroke-dasharray:4 3,color:#e5e7eb
+    class PO,RA,DD,PL,DEV,QA,CR agent
+    class U,DEP io
+    class TASTE,UN side
 ```
 
 ---
 
 ### 🧰 Tech stack
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,nextjs,nodejs,express,redux,tailwind,sass,html,css&perline=11" alt="Front-end and back-end stack" />
-  <br/>
-  <img src="https://skillicons.dev/icons?i=firebase,aws,cs,dotnet,jquery,git,github,figma,vercel&perline=9" alt="Tools and platforms" />
+**Front-End**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=ts" width="44" title="TypeScript" alt="TypeScript" />
+  <img src="https://skillicons.dev/icons?i=js" width="44" title="JavaScript" alt="JavaScript" />
+  <img src="https://skillicons.dev/icons?i=react" width="44" title="React" alt="React" />
+  <img src="https://skillicons.dev/icons?i=nextjs" width="44" title="Next.js" alt="Next.js" />
+  <img src="https://skillicons.dev/icons?i=redux" width="44" title="Redux / Redux Toolkit" alt="Redux" />
+  <img src="https://skillicons.dev/icons?i=tailwind" width="44" title="Tailwind CSS" alt="Tailwind" />
+  <img src="https://skillicons.dev/icons?i=sass" width="44" title="Sass" alt="Sass" />
+  <img src="https://skillicons.dev/icons?i=html" width="44" title="HTML5" alt="HTML5" />
+  <img src="https://skillicons.dev/icons?i=css" width="44" title="CSS3" alt="CSS3" />
+  <img src="https://skillicons.dev/icons?i=jquery" width="44" title="jQuery" alt="jQuery" />
+  <img src="./assets/framer.svg" width="44" title="Framer Motion" alt="Framer Motion" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claude&logoColor=white" alt="Claude Code" />
-  <img src="https://img.shields.io/badge/AI_Agents_&_Pipelines-111827?style=flat-square&logo=anthropic&logoColor=white" alt="AI Agents" />
-  <img src="https://img.shields.io/badge/Shopify-7AB55C?style=flat-square&logo=shopify&logoColor=white" alt="Shopify" />
-  <img src="https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white" alt="Framer Motion" />
-  <img src="https://img.shields.io/badge/Redux_Toolkit-764ABC?style=flat-square&logo=redux&logoColor=white" alt="Redux Toolkit" />
-  <img src="https://img.shields.io/badge/Razor_/_ASP.NET_MVC-512BD4?style=flat-square&logo=dotnet&logoColor=white" alt="Razor" />
-  <img src="https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white" alt="Jira" />
-  <img src="https://img.shields.io/badge/Zeplin-FDBD39?style=flat-square&logo=zeplin&logoColor=black" alt="Zeplin" />
+**Back-End & Cloud**
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs" width="44" title="Node.js" alt="Node.js" />
+  <img src="https://skillicons.dev/icons?i=express" width="44" title="Express" alt="Express" />
+  <img src="https://skillicons.dev/icons?i=cs" width="44" title="C#" alt="C#" />
+  <img src="https://skillicons.dev/icons?i=dotnet" width="44" title="ASP.NET Core MVC / Razor" alt=".NET" />
+  <img src="https://skillicons.dev/icons?i=firebase" width="44" title="Firebase" alt="Firebase" />
+  <img src="https://skillicons.dev/icons?i=aws" width="44" title="AWS" alt="AWS" />
+  <img src="https://skillicons.dev/icons?i=vercel" width="44" title="Vercel" alt="Vercel" />
+  <img src="./assets/shopify.svg" width="44" title="Shopify" alt="Shopify" />
+</p>
+
+**AI & Workflow**
+
+<p>
+  <img src="./assets/claude.svg" width="44" title="Claude Code · multi-agent pipelines" alt="Claude Code" />
+  <img src="https://skillicons.dev/icons?i=git" width="44" title="Git" alt="Git" />
+  <img src="https://skillicons.dev/icons?i=github" width="44" title="GitHub" alt="GitHub" />
+  <img src="https://skillicons.dev/icons?i=figma" width="44" title="Figma" alt="Figma" />
+  <img src="./assets/jira.svg" width="44" title="Jira" alt="Jira" />
 </p>
 
 ---
@@ -92,24 +155,24 @@ flowchart LR
 
 ### 🌐 Freelance: built end to end
 
-| Project | | |
+| Project | What I built | Stack |
 |---|---|---|
 | **[Rightsoft](https://www.rightsoft.co.uk)** 🇬🇧 | Software company site, locomotive scroll & heavy motion | Next.js · Framer Motion |
 | **[Sienna Art Studio](https://siennaartstudio.shop)** 🇺🇸 | Shopify theme redesign + admin panel for bulk uploads | Shopify |
-| **[Vision Detail](https://visiondetail.com.tr)** | Product catalogue with a custom glass-style UI | — |
-| **[NİP Mimarlık](https://nipmimarlik.com)** | Architecture studio site + brand guidelines | — |
-| **[K2 Hukuk](https://k2hukuk.com)** | Law firm site, domain & company e-mail setup | — |
-| **[Postacılar Yapı](https://postacilaryapi.com)** | Construction company, residential projects showcase | — |
-| **[Ekin Nohutçu](https://ekinnohutcu.com)** | Portfolio for a game developer & PM | — |
+| **[Vision Detail](https://visiondetail.com.tr)** | Product catalogue with a custom glass-style UI | Next.js |
+| **[NİP Mimarlık](https://nipmimarlik.com)** | Architecture studio site + brand guidelines | Next.js |
+| **[K2 Hukuk](https://k2hukuk.com)** | Law firm site, domain & company e-mail setup | Next.js |
+| **[Postacılar Yapı](https://postacilaryapi.com)** | Construction company, residential projects showcase | Next.js |
+| **[Ekin Nohutçu](https://ekinnohutcu.com)** | Portfolio for a game developer & PM | Next.js |
 | 🚧 **[Soft Tension Lab](https://soft-tension-lab-website.web.app)** | Editorial, animated studio site (in progress) | Next.js · SCSS |
-| 🚧 **[Dentilion](https://dentilion-web-site.web.app)** | Dental clinic site with appointment requests (in progress) | — |
+| 🚧 **[Dentilion](https://dentilion-web-site.web.app)** | Dental clinic site with appointment requests (in progress) | Next.js |
 
 ---
 
 <div align="center">
 
-**Open to freelance projects and full-time roles.**
-If you need a site built from idea to deployment, [let's talk](mailto:atabayraktar17@gmail.com).
+**Open to freelance projects and full-time roles.**<br/>
+If you need a site built from idea to deployment, <a href="https://linkedin.com/in/ata-bayraktar" target="_blank" rel="noopener noreferrer">let's talk</a>.
 
 </div>
 
