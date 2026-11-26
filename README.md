@@ -98,15 +98,15 @@ Over the past year I moved from **front-end to full-stack**. I now build with **
 
 | Project | What I built | Stack |
 |---|---|---|
-| **[Rightsoft](https://www.rightsoft.co.uk)** 🇬🇧 | Software company site, locomotive scroll & heavy motion | Next.js · Framer Motion |
-| **[Sienna Art Studio](https://siennaartstudio.shop)** 🇺🇸 | Shopify theme redesign + admin panel for bulk uploads | Shopify |
-| **[Vision Detail](https://visiondetail.com.tr)** | Product catalogue with a custom glass-style UI | Next.js |
-| **[NİP Mimarlık](https://nipmimarlik.com)** | Architecture studio site + brand guidelines | Next.js |
-| **[K2 Hukuk](https://k2hukuk.com)** | Law firm site, domain & company e-mail setup | Next.js |
-| **[Postacılar Yapı](https://postacilaryapi.com)** | Construction company, residential projects showcase | Next.js |
-| **[Ekin Nohutçu](https://ekinnohutcu.com)** | Portfolio for a game developer & PM | Next.js |
-| 🚧 **[Soft Tension Lab](https://soft-tension-lab-website.web.app)** | Editorial, animated studio site (in progress) | Next.js · SCSS |
-| 🚧 **[Dentilion](https://dentilion-web-site.web.app)** | Dental clinic site with appointment requests (in progress) | Next.js |
+| **[Rightsoft](https://www.rightsoft.co.uk)** 🇬🇧 | Software company site, locomotive scroll & heavy motion | JS · Next.js (SSR) · Framer Motion · Locomotive Scroll |
+| **[Sienna Art Studio](https://siennaartstudio.shop)** 🇺🇸 | Shopify theme redesign + admin panel for bulk uploads | Shopify · Liquid · Next.js (admin panel) |
+| **[Vision Detail](https://visiondetail.com.tr)** | Product catalogue with a custom glass-style UI | TS · Next.js |
+| **[NİP Mimarlık](https://nipmimarlik.com)** | Architecture studio site + brand guidelines | TS · Next.js |
+| **[K2 Hukuk](https://k2hukuk.com)** | Law firm site, domain & company e-mail setup | TS · Next.js |
+| **[Postacılar Yapı](https://postacilaryapi.com)** | Construction company, residential projects showcase | TS · Next.js |
+| **[Ekin Nohutçu](https://ekinnohutcu.com)** | Portfolio for a game developer & PM | TS · Next.js |
+| 🚧 **[Soft Tension Lab](https://soft-tension-lab-website.web.app)** | Editorial, animated studio site (in progress) | TS · Next.js · Firebase |
+| 🚧 **[Dentilion](https://dentilion-web-site.web.app)** | Dental clinic site with appointment requests (in progress) | TS · Next.js · Firebase |
 
 ---
 
